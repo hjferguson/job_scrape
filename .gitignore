@@ -1,0 +1,67 @@
+# Node specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist/
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Django specific
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Certificates
+*.pem
+*.key
+
+# Testing
+.coverage
+.pytest_cache/
+coverage.xml
+*.coverage
+*.cache
+nose2.json
+
+# Deployment
+.Dockerignore
+docker-compose.yml
+*.dockerfile
